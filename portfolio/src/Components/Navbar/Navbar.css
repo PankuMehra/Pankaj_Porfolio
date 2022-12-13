@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: #1b1d1e;
+    height: 75px;
+    display: flex;
+    border: 2px solid #1b1d1e;
+}
+/* #navbar-left{
+    width: 700px;
+    transform: rotate(-6deg);
+    margin-top: -70px;
+    height: 160px;
+    left: -70px;
+    position: absolute;
+}
+#navbar-right{
+    transform: rotate(2deg);
+    height: 170px;
+    width: 1300px;
+    margin-top: -70px;
+    right: -70px;
+
+    position: absolute;
+} */
