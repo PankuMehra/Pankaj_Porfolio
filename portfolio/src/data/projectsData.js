@@ -1,18 +1,9 @@
-import eight from "../assets/svg/projects/eight.svg";
-import five from "../assets/svg/projects/five.svg";
-import four from "../assets/svg/projects/four.svg";
-import one from "../assets/svg/projects/one.svg";
-import seven from "../assets/svg/projects/seven.svg";
-import six from "../assets/svg/projects/six.svg";
-import three from "../assets/svg/projects/three.svg";
-import two from "../assets/svg/projects/two.svg";
-
 export const projectsData = [
   {
     id: 1,
     projectName: "OyoRooms Replica",
     projectDesc:
-      "This project about Simplifying the Development of Smart Home & IoT Solutions.",
+      "This project is an Online Hotel reservation system, in which a user can Book Hotels and even sell their Hotel as being a Patron",
     tags: [
       "HTML",
       "CSS",
@@ -24,17 +15,16 @@ export const projectsData = [
     ],
     code: "https://github.com/PankuMehra/OyoRooms_Replica",
     demo: "https://oyo-rooms-replica.netlify.app/",
-    image: "https://miro.medium.com/max/1400/1*IgFEVAss9Hu-VHvarizwTQ.webp",
+    image: "https://i.ibb.co/6BVvDny/OYORooms.png",
   },
   {
     id: 2,
     projectName: "Blissclub Replica",
-    projectDesc:
-      "This project is a Jewelry shop, Customer can be buy product and manage them and make payment.",
+    projectDesc: "This project is an E-Commerce system that allows users to shop activewear specifically for the women of India. This is the community-first brand crafting technical apparel for #WomenWhoMove.",
     tags: ["HTML", "CSS", "JavaScript", "BootStrap", "Heroku"],
     code: "https://github.com/PankuMehra/BlissClub-Clone",
     demo: "https://blissclub-replica.netlify.app/",
-    image: seven,
+    image: "https://i.ibb.co/XjsYv9f/Blissclub.png",
   },
   {
     id: 3,
@@ -43,7 +33,7 @@ export const projectsData = [
     tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
     code: "https://github.com/CartikKG/Anthropologie_Project",
     demo: "https://anthropologie-clonee.netlify.app/",
-    image: "https://miro.medium.com/max/1400/1*2Ht1GbkjKrc48jMDTJ_N6g.webp",
+    image: "https://i.ibb.co/Zd3CBWG/Anthropologie.png",
   },
 ];
 

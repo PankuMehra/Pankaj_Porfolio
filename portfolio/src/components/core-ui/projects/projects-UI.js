@@ -5,8 +5,8 @@ import { projectsData } from '../../../data/projectsData';
 import SingleProject from '../../container/single-project';
 import './projects.css';
 
-function ProjectsUI({ theme, classes }) {
-
+function ProjectsUI({ theme, classes, isDark }) {
+// console.log(isDark)
     return (
         <>
             {projectsData.length > 0 && (
@@ -27,6 +27,7 @@ function ProjectsUI({ theme, classes }) {
                                     code={project.code}
                                     demo={project.demo}
                                     image={project.image}
+                                    isD={isDark}
                                 />
                             ))}
                         </div>

@@ -10,7 +10,7 @@ import {
     FaFacebook, FaGithub, FaLinkedin, FaTwitter
 } from 'react-icons/fa';
 
-function LandingUI({ theme, drawerOpen, classes }) {
+function LandingUI({ theme, drawerOpen, classes, isDark }) {
 
 
     return (
@@ -18,7 +18,8 @@ function LandingUI({ theme, drawerOpen, classes }) {
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundColor: theme.quaternary }}
+                    style={{ backgroundColor: theme.secondary }}
+                    // style={{ backgroundColor: "#141414" }}
                 >
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (
@@ -76,7 +77,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                     </div>
                 </div>
                 <img
-                    src={headerData.image}
+                    src={isDark ? headerData.image : headerData.imagebw}
                     alt=''
                     className='landing--img'
                     style={{
@@ -86,7 +87,8 @@ function LandingUI({ theme, drawerOpen, classes }) {
                 />
                 <div
                     className='landing--container-right'
-                    style={{ backgroundColor: theme.secondary }}
+                    style={{ backgroundColor: theme.quaternary }}
+                    // style={{ backgroundColor:"#2b2b2b" }}
                 >
                     <div
                         className='lcr--content'

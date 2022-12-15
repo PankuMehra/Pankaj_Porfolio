@@ -4,8 +4,8 @@ import { ThemeContext } from '../../contexts/theme-context';
 import ProjectsUI from '../core-ui/projects/projects-UI';
 
 const Projects = () => {
-  const { theme } = useContext(ThemeContext);
-
+  const { theme, isDark } = useContext(ThemeContext);
+// console.log(isDark);
   const useStyles = makeStyles(() => ({
     viewAllBtn: {
       color: theme.secondary,
@@ -39,6 +39,7 @@ const Projects = () => {
     <ProjectsUI
       theme={theme}
       classes={classes}
+      isDark={isDark}
     />
   );
 };

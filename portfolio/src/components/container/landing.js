@@ -4,8 +4,8 @@ import { ThemeContext } from '../../contexts/theme-context';
 import LandingUI from '../core-ui/landing/landing-ui';
 
 const Landing = () => {
-  const { theme, drawerOpen } = useContext(ThemeContext);
-
+  const { theme, drawerOpen, isDark } = useContext(ThemeContext);
+  // console.log(isDark);
   const useStyles = makeStyles((t) => ({
     resumeBtn: {
       color: theme.primary,
@@ -56,7 +56,7 @@ const Landing = () => {
   const classes = useStyles();
 
   return (
-    <LandingUI drawerOpen={drawerOpen} theme={theme} classes={classes} />
+    <LandingUI drawerOpen={drawerOpen} theme={theme} classes={classes} isDark={isDark} />
   );
 };
 

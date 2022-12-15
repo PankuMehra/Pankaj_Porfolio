@@ -9,7 +9,6 @@ export const skillsData = [
     'Material UI',
     'Node JS',
     'Express JS',
-    // 'Typescript',
     'MongoDB',
     'Github',
     'NPM'
