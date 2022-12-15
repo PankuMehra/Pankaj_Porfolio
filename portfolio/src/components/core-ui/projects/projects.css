@@ -13,11 +13,11 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 1rem;
+  /* margin: 1rem; */
 }
 
 .projects--header h1 {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   font-size: 2.5rem;
   font-family: var(--primaryFont);
 }

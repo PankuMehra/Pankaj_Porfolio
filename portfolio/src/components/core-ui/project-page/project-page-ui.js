@@ -13,16 +13,19 @@ const ProjectPageUI = ({ theme, classes, search, setSearch, filteredArticles }) 
       <Helmet>
         <title>{headerData.name} | Projects</title>
       </Helmet>
-      <div className="projectPage-header" style={{ backgroundColor: theme.primary }}>
+      {/* <div className="projectPage-header" style={{ backgroundColor: theme.primary }}>
         <Link to="/">
           <AiOutlineHome className={classes.home} />
         </Link>
         <h1 style={{ color: theme.secondary }}>Projects</h1>
+      </div> */}
+      <div className="projects--header">
+          <h1 style={{ color: theme.primary }}>Projects</h1>
       </div>
       <div className="projectPage-container">
-        <div className="projectPage-search">
+        {/* <div className="projectPage-search">
           <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search project..." className={classes.search} />
-        </div>
+        </div> */}
         <div className="project-container">
           <Grid className="project-grid" container direction="row" alignItems="center" justifyContent="center">
             {filteredArticles.map(project => (

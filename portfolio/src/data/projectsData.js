@@ -35,6 +35,24 @@ export const projectsData = [
     demo: "https://anthropologie-clonee.netlify.app/",
     image: "https://i.ibb.co/Zd3CBWG/Anthropologie.png",
   },
+  {
+    id: 4,
+    projectName: "Masai Replica",
+    projectDesc: "This project is an Student Management System with Student and Admin panel",
+    tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
+    code: "https://github.com/PankuMehra/Masai-Clone",
+    demo: "https://masai-replica.netlify.app/",
+    image: "https://i.ibb.co/JQhhQkB/Course-Masai.png",
+  },
+  {
+    id: 4,
+    projectName: "Masai Replica",
+    projectDesc: "This project is an Student Management System with Student and Admin panel",
+    tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
+    code: "https://github.com/PankuMehra/Masai-Clone",
+    demo: "https://masai-replica.netlify.app/",
+    image: "https://i.ibb.co/JQhhQkB/Course-Masai.png",
+  },
 ];
 
 // Do not remove any fields.

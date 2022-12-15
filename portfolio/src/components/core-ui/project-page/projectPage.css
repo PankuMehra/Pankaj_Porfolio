@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
+  padding-top: 8rem;
 }
 
 .projectPage-header {
@@ -19,9 +20,23 @@
   font-size: 4rem;
   font-family: var(--primaryFont);
 }
+.projects--header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* margin: 1rem; */
+}
+
+.projects--header h1 {
+  /* margin-bottom: 40px; */
+  font-size: 2.5rem;
+  font-family: var(--primaryFont);
+}
+
 
 .projectPage-container {
-  padding: 3rem 2rem;
+  padding: 0rem 2rem;
   width: 100%;
   display: flex;
   flex-direction: column;

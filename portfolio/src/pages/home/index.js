@@ -10,6 +10,8 @@ import Education from '../../components/core-ui/education/education'
 import Experience from '../../components/core-ui/experience/experience'
 import Skills from '../../components/core-ui/skills/skills'
 import { headerData } from '../../data/headerData'
+import ProjectPage from '../project'
+import Github from '../../components/container/github'
 
 function HomePage() {
     return (
@@ -22,7 +24,9 @@ function HomePage() {
             <About />
             {/* <Experience /> */}
             <Skills />
-            <Projects />
+            {/* <Projects /> */}
+            <ProjectPage />
+            <Github />
             <Education />
             {/* <Blog /> */}
             <Contacts />

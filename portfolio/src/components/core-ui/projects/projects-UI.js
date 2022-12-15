@@ -16,7 +16,7 @@ function ProjectsUI({ theme, classes, isDark }) {
                     </div>
                     <div className="projects--body">
                         <div className="projects--bodyContainer">
-                            {projectsData.slice(0, 3).map(project => (
+                            {projectsData.map(project => (
                                 <SingleProject
                                     theme={theme}
                                     key={project.id}
@@ -32,7 +32,7 @@ function ProjectsUI({ theme, classes, isDark }) {
                             ))}
                         </div>
 
-                        {projectsData.length > 3 && (
+                        {/* {projectsData.length > 3 && (
                             <div className="projects--viewAll">
                                 <Link to="/projects">
                                     <button className={classes.viewAllBtn}>
@@ -41,7 +41,7 @@ function ProjectsUI({ theme, classes, isDark }) {
                                     </button>
                                 </Link>
                             </div>
-                        )}
+                        )} */}
                     </div>
                 </div>
             )}
