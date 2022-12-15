@@ -1,9 +1,9 @@
 
 export const headerData = {
-    name: 'ABU SAID',
+    name: 'Pankaj Mehra',
     title: "Hello! I am",
-    desciption: "Hello! I am ABU SAID, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. ",
-    image: 'https://i.ibb.co/ZmdNH6x/abu-said.jpg',
-    imagebw: 'https://i.ibb.co/Cw2Xp90/abu-said-bw.jpg',
-    resumePdf: 'https://docs.google.com/document/d/1OmxnrxHbrfQkL7e3BG40HgSmYCWzNSxo9Wa-kOPVPSc/edit?usp=sharing'
+    desciption: "Hello! I am Pankaj Mehra, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. ",
+    imagebw: 'https://i.ibb.co/2MK0cgD/Panku-filtered-picture-with-white-bg.jpg',
+    image: 'https://i.ibb.co/r4FPvKq/Panku-filtered-picture-with-black-bg.jpg',
+    resumePdf: 'https://drive.google.com/file/d/1ghWoOeEobmhWALI3G0jRULSj2CUwmmE-/view?usp=sharing'
 }

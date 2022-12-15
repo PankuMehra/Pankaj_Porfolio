@@ -20,11 +20,11 @@ function HomePage() {
             <Navbar />
             <Landing />
             <About />
-            <Experience />
+            {/* <Experience /> */}
             <Skills />
             <Projects />
             <Education />
-            <Blog />
+            {/* <Blog /> */}
             <Contacts />
         </div>
     )
