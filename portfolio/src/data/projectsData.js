@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: 3,
     projectName: "Anthropoligie Replica",
-    projectDesc: "This project about travel agency management.",
+    projectDesc: "This project is an E-Commerce site which deals with the Clothings of Womens",
     tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
     code: "https://github.com/CartikKG/Anthropologie_Project",
     demo: "https://anthropologie-clonee.netlify.app/",

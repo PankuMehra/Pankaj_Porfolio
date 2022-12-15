@@ -75,6 +75,13 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import redux from '../assets/svg/skills/redux.svg'
+import nodejs from '../assets/svg/skills/nodeJS.svg'
+import expressjs from '../assets/svg/skills/expressJS.svg'
+import github from '../assets/svg/skills/github.svg'
+import npm from '../assets/svg/skills/npm.svg'
+import chakraui from '../assets/svg/skills/chakraUI.svg'
+
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +234,18 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'redux':
+            return redux;
+        case 'nodejs':
+            return nodejs;
+        case 'expressjs':
+            return expressjs;
+        case 'github':
+            return github;
+        case 'npm':
+            return npm;
+        case 'chakraui':
+            return chakraui;
         default:
             break;
     }
