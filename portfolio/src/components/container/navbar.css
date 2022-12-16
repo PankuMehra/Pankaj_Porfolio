@@ -1,0 +1,21 @@
+.header-fixed {
+  display: flex;
+  justify-content: space-between;
+  background-color: #15202b;
+  padding: 3px 80px;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+.header-fixed > nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+}
+.header-fixed > nav > a {
+  color: #1d9bf0;
+}

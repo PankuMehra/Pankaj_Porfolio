@@ -16,10 +16,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
     return (
         <div className='navbar'>
             <div className='navbar--container'>
-                {/* <h1 style={{ color: theme.primary }}>
-                    
-                </h1> */}
-                <img src="https://i.ibb.co/wd0v2Qk/logo.png" alt='logo' style={{width:"80px", height:"80px" }}/>
+                
                 <IoMenuSharp
                     className={classes.navMenu}
                     onClick={handleDrawerOpen}

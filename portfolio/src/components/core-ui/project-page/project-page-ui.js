@@ -9,7 +9,7 @@ import './projectPage.css';
 
 const ProjectPageUI = ({ theme, classes, search, setSearch, filteredArticles }) => {
   return (
-    <div className="projectPage" style={{ backgroundColor: theme.secondary }}>
+    <div id="projects" className="projectPage" style={{ backgroundColor: theme.secondary }}>
       <Helmet>
         <title>{headerData.name} | Projects</title>
       </Helmet>

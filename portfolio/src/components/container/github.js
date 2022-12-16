@@ -7,7 +7,7 @@ const Github = () => {
   const { theme, isDark } = useContext(ThemeContext);
 
   return (
-    <div className={isDark ? "dark-github" : "light-github"}>
+    <div id="github" className={isDark ? "dark-github" : "light-github"}>
       <div className="github--header">
         <h1 style={{ color: theme.primary }}>Github</h1>
       </div>

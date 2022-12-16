@@ -29,20 +29,11 @@ export const projectsData = [
   {
     id: 3,
     projectName: "Anthropoligie Replica",
-    projectDesc: "This project is an E-Commerce site which deals with the Clothings of Womens",
+    projectDesc: "Anthropologie is an Women Clothing Site we can se here , Login Signup Functionality , and some cool Functionality like every product brief description and also see some cool Functionality this site aslo fully responsive",
     tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
     code: "https://github.com/CartikKG/Anthropologie_Project",
     demo: "https://anthropologie-clonee.netlify.app/",
     image: "https://i.ibb.co/Zd3CBWG/Anthropologie.png",
-  },
-  {
-    id: 4,
-    projectName: "Masai Replica",
-    projectDesc: "This project is an Student Management System with Student and Admin panel",
-    tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
-    code: "https://github.com/PankuMehra/Masai-Clone",
-    demo: "https://masai-replica.netlify.app/",
-    image: "https://i.ibb.co/JQhhQkB/Course-Masai.png",
   },
   {
     id: 4,
