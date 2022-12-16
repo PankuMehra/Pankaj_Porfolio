@@ -14,7 +14,7 @@ function LandingUI({ theme, drawerOpen, classes, isDark }) {
 
 
     return (
-        <div className='landing' style={{ backgroundColor: theme.quaternary }}>
+        <div className='landing' id="home" style={{ backgroundColor: theme.quaternary }}>
             <div className='landing--container'>
                 <div
                     className='landing--container-left'

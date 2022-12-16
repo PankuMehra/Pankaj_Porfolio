@@ -1,7 +1,7 @@
 .header-fixed {
   display: flex;
   justify-content: space-between;
-  background-color: #15202b;
+  background-color: #1e2732;
   padding: 3px 80px;
   align-items: center;
   position: sticky;
