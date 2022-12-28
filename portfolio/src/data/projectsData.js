@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: "Masai Replica",
+    projectName: "Student Management System",
     projectDesc: "This project is an Student Management System with Student and Admin panel",
     tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
     code: "https://github.com/PankuMehra/Masai-Clone",
