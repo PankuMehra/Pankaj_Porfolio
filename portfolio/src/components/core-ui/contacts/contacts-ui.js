@@ -22,7 +22,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
       <div className='contacts--container'>
         <h1 style={{ color: theme.primary }}>Contacts</h1>
         <div className='contacts-body'>
-          <div className='contacts-form'>
+          {/* <div className='contacts-form'>
             <form ref={form} onSubmit={handleContactForm}>
               <div className='input-container'>
                 <label htmlFor='Name' className={classes.label}>
@@ -131,7 +131,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 message={errMsg}
               />
             </Snackbar>
-          </div>
+          </div> */}
 
           <div className='contacts-details'>
             <a

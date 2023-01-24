@@ -136,53 +136,65 @@
 
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import "./navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
+import { useRef } from "react";
 
 function Navbar() {
+  const [sideBar, setSideBar] = useState(false);
   function toggleTheme() {
     let html = document.getElementsByTagName("html")[0];
     html.classList.toggle("light");
   }
 
+  const showSidebar = () => {
+    setSideBar((prev) => !prev);
+  };
   return (
-    <div className="header-fixed">
-      <div>
-        <img
-          src="https://i.ibb.co/wd0v2Qk/logo.png"
-          alt="logo"
-          style={{ width: "80px", height: "80px" }}
-        />
-      </div>
-      <nav>
-        <NavHashLink smooth={true} to="#home">
-          Home
-        </NavHashLink>
-        <NavHashLink smooth to="#about">
-          About me
-        </NavHashLink>
-        <NavHashLink smooth to="#skills">
-          Skills
-        </NavHashLink>
-        <NavHashLink smooth to="#projects">
-          Projects
-        </NavHashLink>
-        <NavHashLink smooth to="#github">
-          Github
-        </NavHashLink>
-        <NavHashLink smooth to="#education">
-          Education
-        </NavHashLink>
-        <NavHashLink smooth to="#contacts">
-          Contact
-        </NavHashLink>
-        {/* <a
+    <>
+      <div className="header-fixed">
+        <div>
+          <img
+            src="https://i.ibb.co/wd0v2Qk/logo.png"
+            alt="logo"
+            style={{ width: "80px", height: "80px" }}
+          />
+        </div>
+        <nav className={sideBar ? "SideNavbar" : "Navbar"}>
+          <NavHashLink smooth={true} to="#home">
+            Home
+          </NavHashLink>
+          <NavHashLink smooth to="#about">
+            About me
+          </NavHashLink>
+          <NavHashLink smooth to="#skills">
+            Skills
+          </NavHashLink>
+          <NavHashLink smooth to="#projects">
+            Projects
+          </NavHashLink>
+          <NavHashLink smooth to="#github">
+            Github
+          </NavHashLink>
+          <NavHashLink smooth to="#education">
+            Education
+          </NavHashLink>
+          <NavHashLink smooth to="#contacts">
+            Contact
+          </NavHashLink>
+          {/* <a
           href="https://drive.google.com/file/d/1ghWoOeEobmhWALI3G0jRULSj2CUwmmE-/view"
           target="_blank"
           className="button"
         >
           RESUME
         </a> */}
-      </nav>
-    </div>
+        </nav>
+        <div className="hamburger" onClick={showSidebar}>
+          <GiHamburgerMenu />
+        </div>
+      </div>
+    </>
   );
 }
 

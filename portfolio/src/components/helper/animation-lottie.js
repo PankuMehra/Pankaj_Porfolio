@@ -14,6 +14,7 @@ const AnimationLottie = ({ animationPath, width }) => {
 
   return (
     <Lottie {...defaultOptions} />
+    // <div>rge</div>
   );
 };
 
