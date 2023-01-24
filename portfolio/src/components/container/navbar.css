@@ -61,9 +61,10 @@
   }
   .Navbar {
     position: fixed;
-    top: 88px;
-    width: 40%;
-    height: 90vh;
+    /* top: 88px; */
+    top: 15vh;
+    width: 50%;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -78,7 +79,47 @@
   .SideNavbar {
     position: fixed;
     top: 15vh;
-    width: 40%;
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--primaryFont);
+    background-color: #15202b;
+    right: 0px;
+    transform: translateX(0%);
+    padding: 0px 30px;
+    border-radius: 8px;
+    transition: transform 400ms;
+  }
+}
+@media (max-width: 600px) {
+  .hamburger {
+    display: unset;
+  }
+  .Navbar {
+    position: fixed;
+    /* top: 88px; */
+    top: 15vh;
+    width: 60%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: var(--primaryFont);
+    background-color: #15202b;
+    right: 0px;
+    transform: translateX(100%);
+    padding: 0px 30px;
+    border-radius: 8px;
+    transition: transform 500ms;
+  }
+  .SideNavbar {
+    position: fixed;
+    top: 15vh;
+    width: 60%;
     height: 85vh;
     display: flex;
     flex-direction: column;

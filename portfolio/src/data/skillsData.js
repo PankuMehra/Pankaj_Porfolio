@@ -11,7 +11,8 @@ export const skillsData = [
     'ExpressJS',
     'MongoDB',
     'Github',
-    'NPM'
+    'NPM',
+    'Next JS'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
